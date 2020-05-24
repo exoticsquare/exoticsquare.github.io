@@ -10,9 +10,9 @@
 }
 
 .column {
-	float: center;
+	float: left;
 	width: 20%;
-	padding: 50px;
+	padding-left: 200px;
 }
 
 .row::after {
