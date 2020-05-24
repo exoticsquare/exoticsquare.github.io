@@ -31,22 +31,3 @@ a:focus{
 p {
 }
 
-.navbar {
-  display: inline-block;
-  text-align: center;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-.navbar a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 100px 16px;
-    font-size: 12pt;
-    font-style: italic;
-}
-
