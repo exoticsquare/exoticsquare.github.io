@@ -3,6 +3,7 @@
     font-family: "puppylike" Times, serif, ;
     font-size: 12pt;
     color: white;
+     margin: 0px;
 }
 
 h1 {
@@ -13,6 +14,8 @@ h1 {
 h2 {
     text-align: center;
     font-size: 17pt;
+     display: inline;
+  margin-right: 20px;
 }
 
 a{
@@ -40,6 +43,37 @@ div {
 margin: 0px 0px 0px 10px;
 
 }
+
+div {
+margin: 0px 0px 0px 10px;
+
+}
+
+div1 {
+  display: inline;
+  margin-left: 40px;
+
+}
+
+div2 {
+  display: inline;
+  margin-right: 80px;
+
+}
+
+div3 {
+  display: inline;
+  margin-right: 20px;
+
+}
+
+div4 
+{
+    display: inline;
+  margin-right: 60px;
+}
+
+
 
 footer {
     font-size: 12pt;
