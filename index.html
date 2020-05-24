@@ -284,32 +284,17 @@ p.p4{
 	margin-left:200px;
 		}
 		
-.container {
-  position: relative;
-  width: 50%;
+img {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
 }
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  width: 100px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover .overlay {
-  opacity: 1;
+img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
         </style>
 	    </head>
@@ -322,12 +307,8 @@ p.p4{
 		    </p>
   </div>
   <div class="column">
-	  <div class="container">
-    <p><img src="Angel2.jpg" alt="Angel2" style="width:100px;height:100px;"class="image center">
+    <p><img src="Angel2.jpg" alt="Angel2" style="width:100px;height:100px;"class="center">
 	  </p>
-		    <div class="overlay">
-  </div>
-	</div>  
 	   </div>
 	
 	<div class="row">
