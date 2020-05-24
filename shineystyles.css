@@ -14,12 +14,11 @@ h1 {
 h2 {
     text-align: center;
     font-size: 17pt;
-  margin-right: 20px;
+margin: 0px 0px 10px 0px;
 }
 h3 {
     text-align: center;
     font-size: 17pt;
-   
   
 }
 
@@ -49,33 +48,29 @@ margin: 0px 0px 0px 10px;
 
 }
 
-div {
-margin: 0px 0px 0px 10px;
-
-}
 
 div1 {
   display: inline;
-  margin-left: 80px;
+  margin-left: 250px;
 
 }
 
 div2 {
   display: inline;
-  margin-left: 200px;
+  margin-left: 800px;
 
 }
 
 div3 {
   display: inline;
-  margin-left: 40px;
+  margin-left: 150px;
 
 }
 
 div4 
 {
     display: inline;
-  margin-left: 100px;
+  margin-left: 700px;
 }
 
 
