@@ -10,8 +10,8 @@
 }
 
 .column {
-	float: left;
-	width: 50%;
+	float: center;
+	width: 20%;
 	padding: 150px;
 }
 
