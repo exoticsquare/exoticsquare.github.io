@@ -282,6 +282,28 @@ p.p4{
 	
 	margin-left:200px;
 		}
+		
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
         </style>
 	    </head>
     <body>
@@ -293,8 +315,11 @@ p.p4{
 		    </p>
   </div>
   <div class="column">
-    <p><img src="Angel2.jpg" alt="Angel2" style="width:100px;height:100px;"class="center">
+	  <div class="container">
+    <p><img src="Angel2.jpg" alt="Angel2" style="width:100px;height:100px;"class="center image">
 	  </p>
+		    <div class="overlay">
+  </div>
 	</div>  
 	
 	<div class="row">
