@@ -37,6 +37,9 @@ a:focus{
 p {
 }
 
+div{
+    text-align:center:
+}
 
 div1 {
   display: inline;
@@ -62,6 +65,7 @@ div4
   margin-left: 700px;
 }
 
+    
 
 
 footer {
