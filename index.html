@@ -31,34 +31,43 @@
 	padding:20px;
 	font-style:italic;
 }
+		
+		* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
         </style>
 	    </head>
     <body>
         <br />
         <h1>THIS TOO IS TEMPORARY</h1>
-<br />
-<br />
-<br />
-<br />
-		<img src="Angel.jpg" alt="Angel" style="width:100px;height:100px;">
-			<img src="Angel2.jpg" alt="Angel2" style="width:100px;height:100px;">
-	
-<br />
-<br />
-<br />
-<br />
-        
-        <a href= "RiddledWithDizzy/riddledwithdizzy.html"> Riddled With Dizzy</a>
-   
-        <a href= "ThoseDamnedDirtySouls/thosedamneddirtysouls.html"> Those Damned Dirty Souls</a>
-            
-          <a href= "SwollenCommunication/swollencommunication.html"> Swollen Communication</a>
-      
-            <a href= "MostOtherThings/mostotherthings.html"> Most Other Things</a>
-<br />
-<br />
-<br />
-<br />  
+	    
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p><img src="Angel.jpg" alt="Angel" style="width:100px;height:100px;">
+		      <a href= "RiddledWithDizzy/riddledwithdizzy.html"> Riddled With Dizzy</a>
+    <a href= "ThoseDamnedDirtySouls/thosedamneddirtysouls.html"> Those Damned Dirty Souls</a></p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p><img src="Angel2.jpg" alt="Angel2" style="width:100px;height:100px;">
+	  <a href= "SwollenCommunication/swollencommunication.html"> Swollen Communication</a>
+            <a href= "MostOtherThings/mostotherthings.html"> Most Other Things</a></p>
+	</div>  
 		<div class ="nav">
 			<ul>
 <li><a href= "https://www.instagram.com/shineeeeeeee_xyz/"target=_blank> instagram</a></li>
