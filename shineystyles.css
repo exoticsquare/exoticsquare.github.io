@@ -32,6 +32,8 @@ p {
 }
 
 .navbar {
+  display: inline-block;
+  text-align: center;
   overflow: hidden;
   position: fixed;
   bottom: 0;
