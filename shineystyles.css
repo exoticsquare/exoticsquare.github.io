@@ -12,7 +12,7 @@
 .column {
 	float: center;
 	width: 20%;
-	padding: 100px;
+	padding: 150px;
 }
 
 .row::after {
