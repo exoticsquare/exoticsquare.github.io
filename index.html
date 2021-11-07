@@ -258,18 +258,18 @@ function newColour() {
   height: 400px;
 }
 
-.chain{ 
-background-image: src="chain.png";
-background-repeat: no-repeat;
-background-size: cover;}
+p.chain{ 
+	position:absolute;
+z-index: 1;}
 
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
-  clear: both	
-
+  clear: both;
+position:absolute;
+z-index: 2;
 }
 
 		
@@ -326,7 +326,7 @@ img.img2:hover {
 	    </a>
 	  </p>
 	   </div>
-	<section class="chain">
+	
 	<div class="row">
   <div class="column2">
 	  <br/>
@@ -353,10 +353,10 @@ img.img2:hover {
 	    <p class="p4">
 		  <a href="MostOtherThings/mostotherthings.html">My paintings...</a>
 	  </p>
-	  <p><img src="chain.png" alt="chain" style="width:80%;height:300px;"></p>
+	  <p class"chain"><img src="chain.png" alt="chain" style="width:80%;height:300px;"></p>
 	</div>  
 	</div> 
-	</section>
+
 		
 		<div class ="nav">
 			
